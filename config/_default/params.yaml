@@ -113,3 +113,9 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
+
+# Custom fonts via CDN
+custom_css: []
+custom_js: []
+custom_head:
+  - '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
