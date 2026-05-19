@@ -8,15 +8,17 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Social Psychopharmacology
+        Lab
       image:
         filename: welcome.jpg
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+
+        The **Social Psychopharmacology Lab** at UCLA studies how psychoactive drugs shape human social behavior — and how to use that knowledge to treat psychiatric illness.
+
+        **Director:** [Dr. Anya K. Bershad](./people/), MD PhD · Assistant Professor, UCLA Department of Psychiatry & Biobehavioral Sciences
+
   - block: collection
     content:
       title: Latest News
@@ -35,30 +37,10 @@ sections:
     design:
       view: card
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Latest Publications
       text: ""
       count: 5
       filters:
