@@ -1,0 +1,10 @@
+[google_fonts]
+  heading = "EB Garamond:400,500,600"
+  body = "DM Sans:300,400,500"
+
+[font_size]
+  tiny = "0.7rem"
+  small = "0.9rem"
+  medium = "1rem"
+  large = "1.2rem"
+  huge = "1.5rem"
