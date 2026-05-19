@@ -1,0 +1,176 @@
+// ── Custom theme for Social Psychopharmacology Lab ──
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+// ── Color overrides ──
+:root {
+  --color-primary: #c9a84c;
+}
+
+body {
+  background-color: #0f1923 !important;
+  color: #e8e0d0 !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+// ── Navbar ──
+.navbar {
+  background-color: #0a1219 !important;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.2) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #e8e0d0 !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.03em !important;
+}
+
+.navbar-brand {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.04em !important;
+}
+
+.nav-link:hover {
+  color: #c9a84c !important;
+}
+
+// ── Hero section ──
+.hero-title {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 3.2rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+  color: #ffffff !important;
+  letter-spacing: -0.01em !important;
+}
+
+.hero-lead {
+  color: #b8b0a0 !important;
+  font-size: 1.05rem !important;
+  line-height: 1.75 !important;
+}
+
+// ── Section headings ──
+h1, h2, h3, h4, h5 {
+  font-family: 'EB Garamond', serif !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+  letter-spacing: -0.01em !important;
+}
+
+// ── Section backgrounds ──
+.wg-hero {
+  background-color: #0f1923 !important;
+}
+
+section {
+  background-color: #0f1923 !important;
+}
+
+.home-section {
+  background-color: #0f1923 !important;
+  border-top: 1px solid rgba(255,255,255,0.06) !important;
+  padding: 60px 0 !important;
+}
+
+// ── Cards ──
+.card {
+  background-color: #162130 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 8px !important;
+  transition: border-color 0.2s, transform 0.2s !important;
+}
+
+.card:hover {
+  border-color: rgba(201, 168, 76, 0.3) !important;
+  transform: translateY(-2px) !important;
+}
+
+.card-title {
+  color: #ffffff !important;
+  font-family: 'EB Garamond', serif !important;
+}
+
+.card-text {
+  color: #b8b0a0 !important;
+}
+
+// ── Links ──
+a {
+  color: #c9a84c !important;
+}
+
+a:hover {
+  color: #e8c870 !important;
+  text-decoration: none !important;
+}
+
+// ── Buttons ──
+.btn-primary {
+  background-color: #c9a84c !important;
+  border-color: #c9a84c !important;
+  color: #0f1923 !important;
+  font-weight: 500 !important;
+  border-radius: 4px !important;
+}
+
+.btn-primary:hover {
+  background-color: #e8c870 !important;
+  border-color: #e8c870 !important;
+}
+
+.btn-outline-primary {
+  border-color: #c9a84c !important;
+  color: #c9a84c !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #c9a84c !important;
+  color: #0f1923 !important;
+}
+
+// ── Footer ──
+footer {
+  background-color: #0a1219 !important;
+  border-top: 1px solid rgba(201, 168, 76, 0.2) !important;
+  color: #888 !important;
+}
+
+footer a {
+  color: #c9a84c !important;
+}
+
+// ── Section title accent ──
+.section-heading h1::after,
+.section-heading h2::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #c9a84c;
+  margin-top: 12px;
+}
+
+// ── Publication entries ──
+.pub-list-item {
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+  padding: 16px 0 !important;
+}
+
+.article-metadata {
+  color: #888 !important;
+}
+
+// ── Search ──
+.search-results {
+  background-color: #162130 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
